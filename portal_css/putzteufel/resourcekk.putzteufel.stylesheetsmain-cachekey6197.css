@@ -1,0 +1,466 @@
+
+/* - ++resource++kk.putzteufel.stylesheets/main.css - */
+@media screen {
+/* http://putzteufel-augsburg.de/portal_css/++resource++kk.putzteufel.stylesheets/main.css?original=1 */
+/* */
+body {
+background: #BC0904;
+}
+a {
+outline: none;
+}
+hr {
+background-color: transparent;
+border: 1px dotted #cccccc;
+border-width: 0px 0px 1px 0px;
+color: white;
+height:1px;
+margin:0.5em 0 1em;
+}
+.hiddenStructure {
+background:transparent none repeat scroll 0;
+border:medium none;
+display:block;
+height: 0px;
+margin: 0px;
+overflow:hidden;
+padding:0;
+width:1px;
+}
+.visualClear {
+height: 0px !important;
+}
+#clear-space-before-portal-columns {
+height: 0px !important;
+}
+#login-form {
+margin: 50px 0px 100px 270px;
+}
+.fieldRequired {
+color:#76797C;
+padding:0 0 0 8px;
+font-family: Georgia;
+font-style: normal;
+font-size: 90%;
+}
+#visual-portal-wrapper{
+margin: 10px auto 10px auto !important;
+padding: 0px !important;
+width: 780px;
+background: transparent;
+z-index: 100;
+border: 10px solid white;
+}
+#portal-top {
+background: transparent;
+margin: 0px;
+padding: 0px;
+}
+#portal-searchbox {
+display: none;
+}
+#portal-header {
+background: transparent;
+}
+#global-languageselector {
+display: none;
+}
+/* *****/
+#portal-siteactions {
+display: none;
+}
+#portal-personaltools {
+display: none;
+}
+#portal-logo {
+width: 780px;
+height: 160px;
+padding: 0px;
+margin: 0px;
+}
+#portal-logo img {
+border: 0px none;
+margin: 0px;
+padding: 0px;
+}
+/* *****/
+#portal-breadcrumbs {
+background: black;
+padding: 5px 20px 5px 220px;
+margin: 0px;
+border: 0px dotted #666666;
+color: white;
+}
+#portal-breadcrumbs a {
+color: #ff0000;
+}
+#visual-column-wrapper {
+float: left;
+margin-right: -<dtml-var columnTwoWidth missing="16em">;
+background: transparent;
+}
+#portal-columns {
+width: 780px !important;
+border: 0px solid red;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+background: url("++resource++kk.putzteufel.images/bg-columns.gif") repeat-y 0px 0px transparent;
+border: 0px solid white;
+}
+#portal-column-one {
+float: left;
+margin: 0px !important;
+padding: 0px !important;
+width: 217px !important;
+}
+#portal-column-two, #portal-column-content {
+background: transparent;
+}
+#portal-column-two {
+float: right;
+width: 217px;
+margin: 0px !important;
+padding: 0px !important;
+}
+#portal-column-content {
+margin: 0px 0px 0px 0px !important;
+padding: 20px !important;
+border: 0px solid black;
+background: transparent;
+}
+#portal-column-content .visualPadding {
+padding: 0px !important;
+margin: 0px;
+}
+#portal-column-one .visualPadding {
+padding: 0px !important;
+}
+#portal-column-two .visualPadding {
+padding: 0px !important;
+}
+/* *********************************/
+#portal-globalnav {
+background: url("++resource++kk.putzteufel.images/bg-globalnav.gif") no-repeat 0px 0px transparent;
+padding: 0px !important;
+margin: 0px !important;
+border: 0px solid red;
+text-transform: uppercase;
+text-align: center;
+height: 20px !important;
+padding: 8px 0px 0px 0px !important;
+}
+#portal-globalnav ul {
+list-style: none;
+list-style-image: none;
+background: transparent;
+}
+#portal-globalnav li {
+background: transparent;
+margin: 0px !important;
+padding: 0px !important;
+border: 1px solid white !important;
+border-width: 0px 1px 0px 0px !important;
+font-size: 12px;
+}
+#portal-globalnav li a {
+background: transparent;
+border: 0px !important;
+color: white;
+margin: 0px 0px 0px 0px;
+padding: 0px 10px 0px 10px;
+text-decoration: none;
+font-weight: normal;
+text-transform: uppercase;
+}
+#portal-globalnav li.selected a {
+background: transparent;
+color: #ff0000 !important;
+border: 0px !important;
+margin: 0px 0px 0px 0px;
+}
+#portal-globalnav li a:hover {
+background: transparent;
+color: #ff0000 !important;
+border: 0px !important;
+margin: 0px 0px 0px 0px;
+}
+#portal-globalnav #portaltab-impressum {
+background: transparent !important;
+border: 0px !important;
+border-width: 0px !important;
+}
+/* ***************************************/
+legend {
+background: transparent none repeat scroll 0 0;
+font-size:90%;
+padding:0.5em;
+}
+fieldset {
+border: 1px dotted #8CACBB;
+line-height:1.5em;
+margin:1em 0;
+padding:0 1em 1em;
+width:auto;
+}
+.formQuestion {
+margin: 20px 0px 20px 0px !important;
+}
+.context, .formControls .actionButtons .button, .documentEditable * .context {
+background: transparent !important;
+border: 1px dotted #cccccc !important;
+color:  #9a013e;
+cursor: pointer;
+font-size: 100%;
+padding: 10px 10px 10px 10px;
+text-transform: none;
+}
+.standalone, .documentEditable * .standalone {
+background: transparent !important;
+border: 1px dotted #cccccc !important;
+color:  #9a013e;
+cursor: pointer;
+font-size: 100%;
+padding: 10px 10px 10px 10px;
+text-transform: none;
+}
+.documentEditable {
+border: 0px solid red;
+z-index: 500;
+}
+.contentViews {
+z-index: 30 !important;
+position: relative;
+}
+#parent-fieldname-title span {
+text-transform: none;
+}
+#region-content {
+border: 0px solid black;
+margin: 0px !important;
+padding: 0px !important;
+}
+.discreet {
+font-family: Georgia;
+font-style: normal;
+}
+#content a[href^="http:"],
+#content a.link-external {
+background: transparent;
+padding: 0px;
+}
+#content a[href^="mailto:"],
+#content a.link-mailto {
+background: transparent;
+padding: 0px;
+}
+.documentActions {
+border: 0px solid black;
+padding: 0px !important;
+margin: -4px 0px 0px 0px;
+}
+#content {
+margin: 0px !important;
+padding: 0px !important;
+border: 0px solid red;
+background: transparent;
+color: #333333;
+font-style: normal;
+}
+.documentContent {
+margin: 0px !important;
+padding: 0px 0px 0px 0px !important;
+background: transparent;
+}
+.documentContent ul {
+list-style-type: none;
+list-style-image: none;
+margin: 10px 10px 10px 0px;
+}
+.documentContent li {
+background: transparent;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 5px 0px;
+}
+.documentContent a:link {
+border: 0px !important;
+text-decoration:none;
+}
+.documentContent a:visited {
+border: 0px !important;
+text-decoration:none;
+}
+.documentContent a:hover {
+border: 0px !important;
+text-decoration: underline;
+}
+.documentByLine {
+margin: 0px 0px 20px 0px;
+}
+.documentAuthor {
+display: none;
+}
+.link-external {
+border: 0px !important;
+background: transparent;
+padding: 0px;
+margin: 0px;
+}
+.link-external a:link {
+border: 0px !important;
+text-decoration: none;
+background: transparent;
+}
+.link-external a:visited {
+border: 0px !important;
+text-decoration: none;
+background: transparent;
+}
+.link-external a:hover {
+border: 0px !important;
+text-decoration: underline;
+background: transparent;
+}
+.link-mailto {
+background: transparent;
+padding: 0px;
+}
+h1 {
+border: 0px !important;
+font-size: 120%;
+padding: 10px 0px 10px 0px;
+font-weight: bold;
+}
+h2, h3 {
+border: 0px !important;
+font-size: 140%;
+padding: 10px 0px 10px 0px;
+font-weight: bold;
+font-style: normal;
+}
+.documentFirstHeading {
+background: transparent;
+border: 0px solid red;
+color: #BC0904;
+font-size: 160%;
+font-weight: normal;
+margin: 0px 0px 20px 0px;
+text-align: left;
+padding: 0px 0px 0px 0px;
+text-transform: uppercase;
+font-style: normal;
+}
+.documentDescription {
+display: none;
+}
+.documentModified {
+display: none;
+}
+.author {
+display:none;
+}
+.tileImage {
+border: 5px solid white;
+float:right;
+margin: 10px 0px 0px 20px !important;
+padding: 0px !important;
+}
+.listingBar {
+background: transparent !important;
+border: 1px dotted #cccccc;
+border-width: 0px 0px 1px 0px;
+clear: both;
+font-size: 94%;
+margin: 10px 0px 20px 0px;
+padding: 10px;
+text-align: center;
+text-transform: lowercase;
+vertical-align: top;
+}
+#slideshow-wrapper {
+padding: 0px !important;
+margin: 0px;
+text-align: left;
+border: 1px solid red;
+}
+.slideshowfolder-thumbnails {
+bottom: -100px;
+height: 100px;
+left: 0;
+position: absolute;
+width: 100%;
+margin: 20px 0px 0px 0px !important;
+}
+.slideshowfolder-thumbnails li {
+background: transparent;
+padding: 0px;
+}
+.slideshowfolder-captions {
+-x-system-font: none;
+background: #000000 none repeat scroll 0 0;
+bottom: 0;
+color: #FFFFFF;
+font-size: 12px;
+font-size-adjust: none;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+left: 0;
+line-height: 22px;
+overflow: hidden;
+position: absolute;
+width: 100%;
+z-index: 10000;
+}
+.visualIEFloatFix {
+height: 0.1%;
+}
+#portal-footer {
+background: black;
+margin: 0px;
+padding: 5px !important;
+border: 10px solid white;
+border-width: 10px 0px 0px 0px;
+text-align: center;
+display: block;
+padding: 0px;
+font-style: normal;
+color: white;
+width: 770px;
+text-align: center;
+}
+#portal-footer a:link {
+font-size: 90%;
+text-decoration: none;
+font-style: normal;
+color: #ff0000;
+}
+#portal-footer a:visited {
+font-size: 90%;
+text-decoration: none;
+font-style: normal;
+color: #ff0000;
+}
+#portal-footer a:hover {
+font-size: 90%;
+text-decoration: underline;
+font-style: normal;
+color: #ff0000;
+}
+#portal-colophon {
+display: none;
+}
+}
+
+
+/* - ploneCustom.css - */
+@media all {
+/* http://putzteufel-augsburg.de/portal_css/ploneCustom.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+/* */
+
+}
+
